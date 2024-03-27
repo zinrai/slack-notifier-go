@@ -30,7 +30,7 @@ For example:
 $ echo "Hello World" | ./slack-notifier-go
 ```
 
-# Deployment to Server
+## Deployment to Server
 
 To deploy **slack-notifier-go** to your server, follow these command-line steps:
 
