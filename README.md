@@ -6,17 +6,17 @@ Golang program designed to receive standard output and send it as notifications 
 
 Build the executable:
 
-    ```
-    go build
-    ```
+```
+go build
+```
 
 Create a configuration file named `config.yaml` in the same directory as the executable with the following content:
 
-    ```yaml
-    $ cat << EOF > config.yaml
-    webhookURL: "YOUR_SLACK_WEBHOOK_URL_HERE"
-    EOF
-    ```
+```yaml
+$ cat << EOF > config.yaml
+webhookURL: "YOUR_SLACK_WEBHOOK_URL_HERE"
+EOF
+```
 
 Replace `YOUR_SLACK_WEBHOOK_URL_HERE` with your Slack webhook URL.
 
