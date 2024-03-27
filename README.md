@@ -7,7 +7,7 @@ Golang program designed to receive standard output and send it as notifications 
 Build the executable:
 
 ```
-go build
+$ go build
 ```
 
 Create a configuration file named `config.yaml` in the same directory as the executable with the following content:
